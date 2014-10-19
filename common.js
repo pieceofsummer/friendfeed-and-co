@@ -1,3 +1,5 @@
+Element.prototype.matches = Element.prototype.matches || Element.prototype.webkitMatchesSelector;
+
 function toArray(nl) { return Array.prototype.slice.call(nl); }
 
 function closestParent(element, selector, withSelf) {
