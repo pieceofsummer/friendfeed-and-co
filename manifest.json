@@ -27,7 +27,8 @@
                 "actions/comments-common.js",
                 "actions/comments-avatars.js",
                 "actions/comments-hl-refs.js",
-                "actions/comments-mark-author.js"
+                "actions/comments-mark-author.js",
+                "actions/strike-text.js"
             ],
             "css": ["content.css"]
         }

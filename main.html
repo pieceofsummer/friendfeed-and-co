@@ -5,7 +5,7 @@
     <script type="text/javascript">
 function handleMessage(message) {
     if (message.name === "getSettings") {
-	var names = ["fixNames", "replyLinks", "openImages", "lightBoxedImages", "killDuck", "withAvatars", "highlightRefComments", "highlightAuthorComments", "withAvatars"];
+	var names = ["fixNames", "replyLinks", "openImages", "lightBoxedImages", "killDuck", "withAvatars", "highlightRefComments", "highlightAuthorComments", "withAvatars", "strikeText"];
 	var settings = {};
 	names.forEach(function(name) {settings[name] = safari.extension.settings.getItem(name);});
 	message.target.page.dispatchMessage("SettingsReady", settings);

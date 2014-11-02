@@ -82,5 +82,15 @@
 		<key>Type</key>
 		<string>CheckBox</string>
 	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<true/>
+		<key>Key</key>
+		<string>strikeText</string>
+		<key>Title</key>
+		<string>Зачеркивать текст внутри &lt;s&gt; и &lt;strike&gt;</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
 </array>
 </plist>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Builder Version</key>
-	<string>10600.1.22</string>
+	<string>10600.1.25</string>
 	<key>CFBundleDisplayName</key>
 	<string>FriendFeed &amp; Co</string>
 	<key>CFBundleIdentifier</key>
@@ -38,6 +38,7 @@
 				<string>actions/comments-avatars.js</string>
 				<string>actions/comments-hl-refs.js</string>
 				<string>actions/comments-mark-author.js</string>
+				<string>actions/strike-text.js</string>
 			</array>
 		</dict>
 		<key>Stylesheets</key>
@@ -53,7 +54,7 @@
 	<key>Description</key>
 	<string>Разные дополнительные удобства во FriendFeed-е</string>
 	<key>DeveloperIdentifier</key>
-	<string>362NY372JG</string>
+	<string>M3757Y35M3</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
